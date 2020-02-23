@@ -1,0 +1,36 @@
+{
+  "name": "CamShot",
+  "version": "0.1.0",
+  "summary": "CamShot will take screenshot every after 5 seconds and upload it on firebase.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ishwarsinghpss@gmail.com/CamShot",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ishwar Singh": "ishwarsinghpss@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ishwarsinghpss@gmail.com/CamShot.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "CamShot/Classes/**/*.{swift,h,m}",
+  "resources": "CamShot/**/*.{xcdatamodeld,xcassets,png,plist}",
+  "static_framework": true,
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "Firebase/Storage": [
+
+    ],
+    "Firebase/Core": [
+
+    ]
+  }
+}

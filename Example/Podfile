@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CamShot_Example' do
+  pod 'CamShot', :path => '../'
+
+  target 'CamShot_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

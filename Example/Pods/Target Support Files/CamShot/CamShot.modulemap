@@ -1,0 +1,6 @@
+framework module CamShot {
+  umbrella header "CamShot-umbrella.h"
+
+  export *
+  module * { export * }
+}
